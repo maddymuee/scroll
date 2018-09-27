@@ -105,3 +105,23 @@ body {
 	margin-left: -2.3rem;
 	top: 45%;
 }
+
+#link {
+	position: absolute;
+	top: 385%;
+	left: 50%;
+	margin-left: -5rem;
+	width: 10rem;
+	text-align: center;
+}
+
+a {
+	font-family: tahoma;
+	font-size: 6rem;
+	color: #ffffff;
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
