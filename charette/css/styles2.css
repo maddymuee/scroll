@@ -41,6 +41,17 @@ body {
 	margin-left: -11rem;
 	margin-top: -10rem;
 	position: fixed;
+	z-index: 2;
+}
+
+#ghostbox2 {
+	width: 22rem;
+	height: 30rem;
+	left: 50%;
+	top: 50%;
+	margin-left: -11rem;
+	margin-top: -15rem;
+	position: fixed;
 }
 
 .rectangle1 {
@@ -51,6 +62,27 @@ body {
 	position: absolute;
 	left: 50%;
 	margin-left: -8rem;
+}
+
+.rectangle2 {
+	background-color: black;
+	border-radius: 50% 50% 0 0;
+	width: 16rem;
+	height: 20rem;
+	position: absolute;
+	left: 50%;
+	margin-left: -8rem;
+}
+
+.rectangle3 {
+	background-color: white;
+	border-radius: 50% 50% 0 0;
+	width: 16rem;
+	height: 20rem;
+	position: absolute;
+	left: 50%;
+	margin-left: -8rem;
+	top: 5rem;
 }
 
 .arm1 {
@@ -65,6 +97,27 @@ body {
 }
 .arm2 {
 	background-color: white;
+	border-radius: 50% 50% 0 0;
+	width: 4rem;
+	height: 5rem;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: rotate(60deg);
+}
+
+.arm3 {
+	background-color: black;
+	border-radius: 50% 50% 0 0;
+	width: 4rem;
+	height: 5rem;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: rotate(-60deg);
+}
+.arm4 {
+	background-color: black;
 	border-radius: 50% 50% 0 0;
 	width: 4rem;
 	height: 5rem;
@@ -95,6 +148,48 @@ body {
 	top: 25%;
 }
 
+.eye3 {
+	background-color: white;
+	border-radius: 50%;
+	width: 3rem;
+	height: 3rem;
+	position: absolute;
+	left: 28%;
+	top: 25%;
+
+}
+
+.eye4 {
+	background-color: white;
+	border-radius: 50%;
+	width: 3rem;
+	height: 3rem;
+	position: absolute;
+	right: 28%;
+	top: 25%;
+}
+
+.eye5 {
+	background-color: black;
+	border-radius: 50%;
+	width: 3rem;
+	height: 3rem;
+	position: absolute;
+	left: 28%;
+	top: 33.4%;
+
+}
+
+.eye6 {
+	background-color: black;
+	border-radius: 50%;
+	width: 3rem;
+	height: 3rem;
+	position: absolute;
+	right: 28%;
+	top: 33.4%;
+}
+
 .mouth {
 	background-color: black;
 	border-radius: 50%;
@@ -105,6 +200,46 @@ body {
 	margin-left: -2.3rem;
 	top: 45%;
 }
+.mouth2 {
+	background-color: white;
+	border-radius: 50%;
+	width: 4.6rem;
+	height: 4.6rem;
+	position: absolute;
+	left: 50%;
+	margin-left: -2.3rem;
+	top: 45%;
+}
+.mouth3 {
+	background-color: black;
+	border-radius: 50%;
+	width: 4.6rem;
+	height: 4.6rem;
+	position: absolute;
+	left: 50%;
+	margin-left: -2.3rem;
+	top: 46.7%;
+}
+
+.roof {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 10rem 10rem 10rem;
+	border-color: transparent transparent #ffffff transparent;
+	position: absolute;
+	left: 50%;
+	margin-left: -10rem;
+}
+
+.whiteout {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff;
+}
 
 .lightsout {
 	position: fixed;
@@ -113,6 +248,17 @@ body {
 	width: 100%;
 	height: 100%;
 	background-color: #000000;
+}
+
+.zombie {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image:url("https://thenypost.files.wordpress.com/2017/01/zombiepic.jpg?quality=90&strip=all");
+	background-size:cover;
+	z-index: 1;
 }
 
 .boo {
@@ -126,6 +272,7 @@ body {
 	font-family: tahoma;
 	font-weight: bold;
 	color: #ffffff;
+	z-index: 2;
 }
 
 #link {
@@ -135,6 +282,7 @@ body {
 	margin-left: -5rem;
 	width: 10rem;
 	text-align: center;
+	z-index: 2;
 }
 
 a {

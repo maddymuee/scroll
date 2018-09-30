@@ -1,0 +1,145 @@
+body {
+	background-color: #ffe866;
+	margin: 0;
+}
+
+.skrollr-container {
+	height: 100%;
+	overflow: none;
+}
+
+.helper {
+	height: 400%;
+}
+
+.marker {
+	height: 25%;
+	width: 5%;
+}
+
+.one {
+	background-color: red;
+}
+
+.two {
+	background-color: blue;
+}
+
+.three {
+	background-color: cyan;
+}
+
+.four {
+	background-color: green;
+}
+.rectangle2 {
+	background-color: #ea9409;
+	width: 100%;
+	height: 27.5%;
+	position: fixed;
+	bottom: 0;
+}
+
+#ghostbox {
+	width: 22rem;
+	height: 20rem;
+	left: 50%;
+	top: 50%;
+	margin-left: -11rem;
+	margin-top: -10rem;
+	position: fixed;
+}
+
+.rectangle1 {
+	background-color: #94a503;
+	border-radius: 50% 50% 0 0;
+	width: 16rem;
+	height: 20rem;
+	position: absolute;
+	left: 50%;
+	margin-left: -8rem;
+}
+
+.arm1 {
+	background-color: #94a503;
+	border-radius: 50% 50% 0 0;
+	width: 4rem;
+	height: 5rem;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: rotate(-60deg);
+}
+.arm2 {
+	background-color: #94a503;
+	border-radius: 50% 50% 0 0;
+	width: 4rem;
+	height: 5rem;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: rotate(60deg);
+}
+
+.eye1 {
+	background-color: #ffe866;
+	border-radius: 50%;
+	width: 3rem;
+	height: 3rem;
+	position: absolute;
+	left: 28%;
+	top: 25%;
+}
+
+.eye2 {
+	background-color: #ffe866;
+	border-radius: 50%;
+	width: 3rem;
+	height: 3rem;
+	position: absolute;
+	right: 28%;
+	top: 25%;
+}
+
+.sun {
+	background-color: #ea9409;
+	border-radius: 50%;
+	width: 6rem;
+	height: 6rem;
+	position: fixed;
+	left: 15%;
+	bottom: 0%;
+}
+
+.mouth {
+	background-color: #ffe866;
+	border-radius: 50%;
+	width: 4.6rem;
+	height: 4.6rem;
+	position: absolute;
+	left: 50%;
+	margin-left: -2.3rem;
+	top: 45%;
+}
+
+
+
+#link {
+	position: absolute;
+	top: 385%;
+	left: 50%;
+	margin-left: -5rem;
+	width: 10rem;
+	text-align: center;
+}
+
+a {
+	font-family: tahoma;
+	font-size: 6rem;
+	color: #ffffff;
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
