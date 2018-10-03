@@ -54,6 +54,39 @@ body {
 	position: fixed;
 }
 
+#ghostbox3 {
+	width: 22rem;
+	height: 20rem;
+	left: 50%;
+	top: 50%;
+	margin-left: -11rem;
+	margin-top: -10rem;
+	position: fixed;
+	z-index: 2;
+}
+
+#ghostbox4 {
+	width: 22rem;
+	height: 20rem;
+	left: 50%;
+	top: 50%;
+	margin-left: -11rem;
+	margin-top: -10rem;
+	position: fixed;
+	z-index: 2;
+}
+
+#ghostbox5 {
+	width: 22rem;
+	height: 20rem;
+	left: 50%;
+	top: 50%;
+	margin-left: -11rem;
+	margin-top: -10rem;
+	position: fixed;
+	z-index: 2;
+}
+
 .rectangle1 {
 	background-color: white;
 	border-radius: 50% 50% 0 0;
