@@ -79,6 +79,18 @@ animation: AnimationName 30s ease infinite;
 }
 
 
+#bigcircle {
+  -webkit-mask-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Five_Pointed_Star_Solid.svg/2000px-Five_Pointed_Star_Solid.svg.png);
+  mask: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Five_Pointed_Star_Solid.svg/2000px-Five_Pointed_Star_Solid.svg.png) top left cover;
+  -webkit-mask-attachment: fixed;
+  mask-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
 .circle {
 	width: 8rem;
 	height: 8rem;
