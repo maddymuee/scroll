@@ -10,6 +10,11 @@ body {
 .helper {
 	height: 15000%;
 }
+
+#skrollr-body {
+	height: 100%;
+	width: 100%;
+}
 /*
 .background {
 	height: 100%;
