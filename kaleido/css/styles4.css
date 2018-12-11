@@ -83,6 +83,33 @@ animation: AnimationName 30s ease infinite;
 	background-color: green;
 }
 
+#arrow {
+	position: fixed;
+	bottom: 10%;
+	left: 50%;
+	width: 8rem;
+	height: 6rem;
+	margin-left: -4rem;
+	text-align: center;
+	font: 4rem tahoma;
+	font-weight: bold;
+	color: #cbcbcb;
+}
+
+.blink {
+	animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.goodbye {
+	opacity: 0;
+	transition: linear 2s;
+}
 
 .circ {
     background-size: cover;
